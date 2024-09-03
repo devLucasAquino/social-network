@@ -28,9 +28,9 @@ function App() {
             <button className="bg-default-btn font-medium text-slate-200 w-full py-2 rounded-md">LOGIN</button>
           </div>
         </form>
-        <footer className="bg-slate-300 flex items-center justify-around w-1/2 rounded-b-lg p-2">
-          <button><FcGoogle className="size-6"/></button>
-          <button><FaFacebook className="size-6 text-blue-800"/></button>
+        <footer className="bg-slate-300 flex items-center justify-evenly w-1/2 rounded-b-lg p-2">
+          <button className="flex flex-col items-center"><FcGoogle className="size-6"/></button>
+          <button className="flex flex-col items-center"><FaFacebook className="size-6 text-blue-800"/></button>
         </footer>
       </section>
     </div>
